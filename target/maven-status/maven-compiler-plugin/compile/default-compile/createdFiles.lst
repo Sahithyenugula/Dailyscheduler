@@ -1,6 +1,0 @@
-com/schedule/controller/FoodScheduleController.class
-com/schedule/model/Meal.class
-com/schedule/config/databaseConfig.class
-com/schedule/dao/FoodDao.class
-com/schedule/DailySchedulerApp.class
-com/schedule/service/FoodScheduleService.class
