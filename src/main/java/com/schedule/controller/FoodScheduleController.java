@@ -18,16 +18,12 @@ public class FoodScheduleController {
 
     @PostMapping("/insert/food")
     private String insertFoodData(@RequestBody Meal meal) throws SQLException {
-
         return foodScheduleService.insertMealData(meal);
     }
 
     @GetMapping(value = "/select/food")
     private List<Meal> getFooddata(@RequestParam String date)throws SQLException {
-
         return foodScheduleService.getMealData(date);
-
-
     }
 
 
