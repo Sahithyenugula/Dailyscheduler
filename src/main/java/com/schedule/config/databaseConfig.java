@@ -14,7 +14,7 @@ public class databaseConfig {
     {
         DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
         dataSourceBuilder.driverClassName("com.mysql.jdbc.Driver");
-        dataSourceBuilder.url("jdbc:mysql://localhost:3306");
+        dataSourceBuilder.url("jdbc:mysql://localhost:3306?useSSL=false");
         dataSourceBuilder.username("root");
         dataSourceBuilder.password("sahith@3231");
         return dataSourceBuilder.build();
